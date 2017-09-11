@@ -33,7 +33,7 @@ facebook_url:  # add url link
 discus_identifier: evanfungv-com # add your discus identifier
 
 # Newsletter
-mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp: evanfungv.us16.list-manage.com/subscribe/post?u=64d41f9524c5e4e1e50994595&amp;id=25a606806d # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Tracker
 analytics:
