@@ -16,9 +16,8 @@ banner-desc:  因為佢地幫你KEEP住這團火 - Evan Fung # add banner descri
 # Author settings
 author-pic: face.jpg # your photo
 author-name: Evan Fung # your name
-about-author: >
-  #居住在香港的90后，現在正在學習前端開發，HTML,CSS,JavaScript,Vue.js,Node.js等等。
-  #喜歡旅遊、讀書、行山、游水。
+about-author: 香港 - 90后，現在正在學習前端開發，HTML,CSS,JavaScript,Vue.js,Node.js等等。喜歡旅遊和讀書。
+
 email: EvanFungv@gmail.com # your email
 phone: (852)-169-6557 # your pnone number
 website: EvanFungv.com # you website
