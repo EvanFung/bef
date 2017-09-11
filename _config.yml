@@ -1,4 +1,4 @@
-logo: EFG # add logo name
+logo: # add logo name
 title: Evan Fung - Enjoy Freedom
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -16,7 +16,9 @@ banner-desc:  因為佢地幫你KEEP住這團火 - Evan Fung # add banner descri
 # Author settings
 author-pic: face.jpg # your photo
 author-name: Evan Fung # your name
-about-author: 居住在香港的90后，現在正在學習前端開發，HTML,CSS,JavaScript,Vue.js,Node.js等等。 # about author
+about-author: >
+  居住在香港的90后，現在正在學習前端開發，HTML,CSS,JavaScript,Vue.js,Node.js等等。
+  平時喜歡去旅遊和讀書。
 email: EvanFungv@gmail.com # your email
 phone: (852)-169-6557 # your pnone number
 website: EvanFungv.com # you website
