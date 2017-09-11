@@ -17,7 +17,6 @@ banner-desc:  因為佢地幫你KEEP住這團火 - Evan Fung # add banner descri
 author-pic: face.jpg # your photo
 author-name: Evan Fung # your name
 about-author: 香港 - 90后，現在正在學習前端開發，HTML,CSS,JavaScript,Vue.js,Node.js等等。
-
 email: EvanFungv@gmail.com # your email
 phone: (852)-169-6557 # your pnone number
 website: EvanFungv.com # you website
@@ -31,7 +30,7 @@ dribbble_url:  # add url link
 facebook_url:  # add url link
 
 # Disqus
-discus_identifier: mr-fung # add your discus identifier
+discus_identifier: mr-brown # add your discus identifier
 
 # Newsletter
 mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
