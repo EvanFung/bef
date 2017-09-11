@@ -1,5 +1,5 @@
-logo: # add logo name
-title: Evan Fung - 享受人生
+logo: EFG # add logo name
+title: Evan Fung - Enjoy Freedom
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -10,13 +10,13 @@ url: "evanfungv.com" # the base hostname & protocol for your site, e.g. http://e
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: 講乜好？ # add banner title
-banner-desc:  # add banner description
+banner-title: 你要感激D睇唔起你既人 # add banner title
+banner-desc:  因為佢地幫你KEEP住這團火 - Evan Fung # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
 author-name: Evan Fung # your name
-about-author: # about author
+about-author: 居住在香港的90后，現在正在學習前端開發，HTML,CSS,JavaScript,Vue.js,Node.js等等。 # about author
 email: EvanFungv@gmail.com # your email
 phone: (852)-169-6557 # your pnone number
 website: EvanFungv.com # you website
@@ -30,7 +30,7 @@ dribbble_url:  # add url link
 facebook_url:  # add url link
 
 # Disqus
-discus_identifier: mr-brown # add your discus identifier
+discus_identifier: mr-fung # add your discus identifier
 
 # Newsletter
 mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
