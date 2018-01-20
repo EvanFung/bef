@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "evanfungv.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
@@ -17,10 +17,7 @@ banner-desc:  but I'm not the only one - John Lennon # add banner description
 author-pic: face.jpg # your photo
 author-name: Evan Fung # your name
 about-author: |
-  I'm a software developer, web enthusiast, and computer science student living in Hong Kong, China.
-  When I'm not programming, I love reading or jogging.
-  Please feel free to contact me if you have any questions or requesting for business cooperation.
-  Wechat:evanfunggg
+  I'm a software developer, web enthusiast, and computer science student living in Hong Kong.
 email: evanfungv@gmail.com # your email
 phone: (852)-不方便透露 # your pnone number
 website: https://evanfungv.com # you website
