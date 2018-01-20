@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Getting Started with Redux"
+img: himalayan.jpg # Add image post (optional)
 date: 2018-01-20
 description: Notes (and partial transcription) of Dan Abramov's Redux course # Add post description (optional)
 tag: [React, Redux, JavaScript]
