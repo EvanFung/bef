@@ -32,8 +32,6 @@ The overall principle here is that the state is read only, and can only be modif
 Before learning more about Redux, it's important to know the difference between "Pure" and "Impure" functions.
 
 **Pure:**
-
-```
 {% highlight ruby %}
 
 function square(x) {
@@ -49,12 +47,10 @@ function squareAll(items) {
 }
 
 {% endhighlight %}
-```
 
 Pure functions are those whose return values depend only upon the values of their arguments. Pure functions don't have side effects like network or database calls. Pure functions also do not override the values of anything. In the above example, a new array is returned instead of modifying the `items` that was passed in.
 
 **Impure:**
-```
 {% highlight ruby %}
 function square(x) {
   updateXInDatabase(x);
@@ -66,7 +62,6 @@ function squareAll(items) {
   }
 }
 {% endhighlight %}
-```
 Contrast the "Impure" function. A database is called, and values passed in are being overwritten.
 
 This distinction is important to understand, since Redux requires that certain functions are pure.
