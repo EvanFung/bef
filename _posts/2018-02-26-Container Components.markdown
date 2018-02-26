@@ -32,7 +32,7 @@ PartyPooperListContainer => PartyPooperList
 
 假設你有一個顯示評論的組件，而且你不認識容器組件這個模式。自然而然，你把全部東西放到一個籃子里了。
 
-```javascript
+```react
 class CommentList extends React.Component { 
   this.state = {comments：[]}; 
 
@@ -44,9 +44,9 @@ class CommentList extends React.Component {
     return（
       <ul> 
         {this.state.comments.map（c =>（
-          <li> {c.body}  -  {c.author} </ li> 
+          <li> {c.body}  -  {c.author} </li> 
         ））} 
-      </ ul> 
+      </ul> 
     ）; 
   } 
 }
