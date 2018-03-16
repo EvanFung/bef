@@ -397,7 +397,7 @@ const styles = StyleSheet.create({
 
 在上图中，布局是完全一样的 -- 但现在中间部分的宽是其他部分的两倍！这就是 `flex` 属性让我们做的。下面是代码：
 
-```
+```react
 class FlexboxExamples extends Component {
   render() {
     return (
@@ -444,7 +444,7 @@ const styles = StyleSheet.create({
 
 实现上图的代码是:
 
-```
+```react
 class FlexboxExamples extends Component {
   render() {
     return (
