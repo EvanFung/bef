@@ -17,9 +17,22 @@ Flexbox 的主要思想是使父元素能够控制其所有(*直接*!)子元素�
 
 此小节有很多内容，分解为以下部分
 
-[TOC]
-
-
+- Flexbox轴
+- Flex 方向
+- 对齐内容
+  - Flex-Start
+  - Center
+  - Flex-End
+  - Space-Between
+  - Space-Around
+- 对齐项目
+  - Flex-Start
+  - Center
+  - Flex-End
+  - Stretch
+- 居中内容
+- Flex 属性
+- 对齐单个项目
 
 
 ## Flexbox轴
