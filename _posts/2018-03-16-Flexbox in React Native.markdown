@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flexbox 入门"
+title: "Flexbox in React Native"
 img: react.png # Add image post (optional)
 date: 2018-03-16
 description: Flexbox入门 # Add post description (optional)
