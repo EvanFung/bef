@@ -22,7 +22,7 @@ Flexbox 的主要思想是使父元素能够控制其所有(*直接*!)子元素�
 - [Flexbox 轴](#Flexbox轴)
 - [Flex 方向](#Flex 方向)
 - 对齐内容
-  - [Flex-Start]()
+  - [Flex-Start](#Flex-Start)
   - [Center]()
   - [Flex-End]()
   - [Space-Between]()
@@ -40,7 +40,7 @@ Flexbox 的主要思想是使父元素能够控制其所有(*直接*!)子元素�
 
 目前，我们需要了解的关于 Flexbox 的最重要的概念是它由不同的[轴](https://www.quora.com/What-is-the-plural-of-axis)组成，包括**主轴**和**交叉轴**。
 
-![axis1](C:\Users\15008\Downloads\axis1.jpg)
+![axis1](https://i.imgur.com/0RaIbhK.jpg)
 
 ​									**Flexbox的轴：主轴和交叉轴**
 
@@ -63,7 +63,7 @@ Flexbox 的其余部分只是决定如何在主轴和交叉轴上对齐、定位
 
 默认情况下，React Native 中的每个元素都有 `flexDirection: column` 声明。当一个元素的 `flex-direction` 为`列`时，它的*主*轴为垂直的，而它的*交叉*轴为水平的，就像我们在上图中看到的那样。但是，如果你给一个元素 `flexDirection: row` 声明，轴就颠倒过来了。主轴变为水平的，而交叉轴变为垂直的。再次说明，这非常重要，因为你的整个布局都取决于这两个轴。
 
-![flex-direction](C:\Users\15008\Downloads\flex-direction.jpg)
+![flex-direction](https://i.imgur.com/KCFRIMH.jpg)
 
 ​									`flex-direction` **会改变那个轴为主轴**
 
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
 
 ## 对齐内容：Flex-Start（交叉轴的起点对齐）
 
-![3](C:\Users\15008\Downloads\3.jpg)
+![3](https://i.imgur.com/Txffdc4.jpg)
 
 ​					`justifyContent: 'flex-start'`**会使flex项目出现在主轴的起点**
 
@@ -141,7 +141,7 @@ container: {
 
 ## 对齐内容：Center(居中)
 
-![4](C:\Users\15008\Downloads\4.jpg)
+![4](https://i.imgur.com/lY1cinm.jpg)
 
 ​						`justifyContent: 'center'` **使flex项目出现在主轴的中心**
 
@@ -160,7 +160,7 @@ container: {
 
 ##对齐内容：Flex-End（交叉轴的起点对齐）
 
-![5](C:\Users\15008\Downloads\5.jpg)
+![5](https://i.imgur.com/PLCY499.jpg)
 
 ​					`justifyContent: 'flex-end'` **会使flex项目出现在主轴的终点**
 
@@ -179,7 +179,7 @@ container: {
 
 ## 对齐内容：Space-Between（两端对齐）
 
-![6](C:\Users\15008\Downloads\6.jpg)
+![6](https://i.imgur.com/p63iJ1w.jpg)
 
 ​			`justifyContent: 'space-between'` **会使flex项目出现在主轴的两端，子元素之间有间隔**
 
@@ -198,7 +198,7 @@ container: {
 
 ## 对齐内容：Space-Around(每个子项间隔相等)
 
-![7](C:\Users\15008\Downloads\7.jpg)
+![7](https://i.imgur.com/Ms6PqzO.jpg)
 
 ​					`justifyContent: 'space-around'`**沿主轴等距离间隔flex项目**
 
@@ -223,7 +223,7 @@ container: {
 }
 ```
 
-![8](C:\Users\15008\Downloads\8.jpg)
+![8](https://i.imgur.com/JXw4OMc.jpg)
 
 ​	将`justifyContent:space-around`设为`flex-direction:row`**会将主轴变为水平方向，并均匀地排列flex项目**
 
@@ -249,7 +249,7 @@ container: {
 
 ##对齐项目 - Flex-Start
 
-![9](C:\Users\15008\Downloads\9.jpg)
+![9](https://i.imgur.com/ITGjhPu.jpg)
 
 ​					`alignItems:flex-start`**使flex项目出现在交叉轴的起点**
 
@@ -268,7 +268,7 @@ container: {
 
 
 
-![10](C:\Users\15008\Downloads\10.jpg)
+![10](https://i.imgur.com/bTgt8on.jpg)
 
 ​						`alignItems: center`**会使flex项目出现在交叉轴的中间**
 
@@ -285,7 +285,7 @@ container: {
 
 ## 对齐项目：Flex-End（交叉轴的终点对齐）
 
-![11](C:\Users\15008\Downloads\11.jpg)
+![11](https://i.imgur.com/MSTkFN8.jpg)
 
 ​					`alignItems:flex-end`**会使flex项目出现在交叉轴的终点**
 
@@ -302,7 +302,7 @@ container: {
 
 ## 对齐项目：Stretch
 
-![12](C:\Users\15008\Downloads\12.jpg)
+![12](https://i.imgur.com/6wBbF6Q.jpg)
 
 ​						`alignItem:stretch`**会使flex项目占满交叉轴的整个宽度**
 
@@ -343,7 +343,7 @@ const styles = StyleSheet.create({
 
 注意我将 `flexDirection` 改成了 `row`，并重新添加了 `width: 50` 和删除了 `height: 50`。
 
-![13](C:\Users\15008\Downloads\13.jpg)
+![13](https://i.imgur.com/SOgHfoe.png)
 
 ​			`flex-direction:row`和`alignItems:stretch`**会使flex项目沿交叉轴垂直拉伸**
 
@@ -363,7 +363,7 @@ const styles = StyleSheet.create({
 
 我们从这样的视图开始：
 
-![14](C:\Users\15008\Downloads\14.jpg)
+![14](https://i.imgur.com/Cofh5wx.jpg)
 
 ​									**沿主轴和交叉轴居中内容**
 
@@ -392,7 +392,7 @@ const styles = StyleSheet.create({
 
 
 
-![15](C:\Users\15008\Downloads\15.jpg)
+![15](https://i.imgur.com/CvLnNu7.jpg)
 
 ​				**使用**`flex`**属性来更改Flex项目相比其他Flex项目增加其尺寸的速度**
 
@@ -437,7 +437,7 @@ const styles = StyleSheet.create({
 
 如果我们想要这样的布局呢？
 
-![16](C:\Users\15008\Downloads\16.jpg)
+![16](https://i.imgur.com/BaBjut0.jpg)
 
 ​					`alignSelf:flex-end`**将目标flex项目改为出现在交叉轴结尾处**
 
