@@ -1,0 +1,49 @@
+---
+layout: post
+
+title: "数据库设计范式"
+
+date: 2021-01-31
+
+description: Database 设计范式
+
+tag: [Database]
+
+---
+
+***数据库范式***（NF）
+
+数据库的设计范式是数据库设计所需要满足的规范，满足这些规范的数据库是简洁的、结构明晰的，同时，不会发生插入（insert）、删除（delete）和更新（update）操作异常。
+
+***为什么需要数据库范式***
+
+数据的多余和不一致(data redundancy and inconsistency)
+
+数据访问的困难(difficulty in accessing data)
+
+数据的孤立(data isolation)
+
+​	数据分散在不同文件中，又可能文件的格式不同，因此写新的APP来做检索适当的数据好难
+
+数据的完整性问题(integrity problem)
+
+原子性问题(atomicity problem)
+
+并发访问异常(concurrent-access anomaly)
+
+​	银行同时扣钱的时候发生错误
+
+安全性问题(security problem)
+
+​	并非数据库的所有用户都可以访问所有数据。
+
+为了解决以上的问题，有了数据库设计的范式。
+
+
+
+***数据库范式分类***
+
+目前关系数据库有六种范式：第一范式（1NF）、第二范式（2NF）、第三范式（3NF）、巴斯-科德范式（BCNF）、第四范式(4NF）和第五范式（5NF，又称完美范式）。满足最低要求的范式是第一范式（1NF）。在第一范式的基础上进一步满足更多规范要求的称为第二范式（2NF），其余范式以次类推。一般来说，数据库只需满足第三范式(3NF）就行了。
+
+
+

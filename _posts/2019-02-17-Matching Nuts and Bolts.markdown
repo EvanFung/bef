@@ -87,10 +87,8 @@ T(n)=\sum_{i=1}^n\sum_{j=1}^nX_{ij}
 $$
 
 - Then, we want to calculate the expectation of T(n)
-  $$
 
-  $$
-
+  ​
   $$
   E(T(n)) = E[\sum_{i=1}^n \sum_{j=1}^nX_{ij}]=\sum_{i=1}^n\sum_{j=1}^nE[X_{ij}]=\sum_{i=1}^n\sum_{j=1}^nPr[X_{ij}=1]
   $$
